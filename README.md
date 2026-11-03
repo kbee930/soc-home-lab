@@ -53,9 +53,13 @@ Each Incident will have a writeup from both sides, that lives in /rounds/round-X
 Repo Structure
 
 /rounds/round-01/     incident report, timeline, remediation, retest
+
 /ir-plan/             incident response plan (versioned as it matures)
+
 /detections/          Splunk searches and Sysmon rules I've written
+
 /hardening/           before/after configs, CIS-mapped checklists
+
 /diagrams/             network and attack flow diagrams
 
 About Me
