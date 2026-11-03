@@ -9,7 +9,7 @@ The Story
 
 This lab simulates Shieldpoint Recovery, a fictional small debt collection agency that handles nonpublic personal information (NPI) but has no dedicated security staff. I'm the IT employee informally responsible for security, learning to detect, investigate, and respond to incidents as they happen, building the program from scratch.
 
-A friend plays red team, attacking the environment without warning. I play blue team: investigating what happened, documenting findings, remediating the root cause, and retesting to confirm the fix holds. Each round gets harder, and the environment gets more secure.
+A friend plays red team, attacking the environment without warning. I play blue team: investigating what happened, documenting findings, remediating the root cause, and retesting to confirm the fix holds. Each round gets harder,the environment changes and gets more secure.
 
 Shieldpoint Recovery is a fictional company for training purposes, with no connection to any real organization. All data used in this lab (names, account numbers, SSNs) is synthetic.
 
