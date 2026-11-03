@@ -44,7 +44,7 @@ Frameworks
 	•	CIS Controls / Microsoft Security Baseline – hardening targets
 
 
-Each Incident will have a writeup that lives in /rounds/round-XX/, including the incident report, timeline, evidence, remediation, and retest results.
+Each Incident will have a writeup from both sides, that lives in /rounds/round-XX/, including the incident report, timeline, evidence, remediation, and retest results.
 
 Repo Structur
 /rounds/round-01/     incident report, timeline, remediation, retest
