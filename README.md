@@ -5,7 +5,9 @@ SOC Home Lab
 
 Self-built Active Directory lab for practicing SOC investigation, incident response, and detection engineering, documented round by round.
 
-----Remember---- This is for FUN and to learn some stuff as we go.
+----Remember---- 
+
+This is for FUN and to learn some stuff as we go.
 
 The Story
 
