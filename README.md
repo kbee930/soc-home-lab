@@ -22,7 +22,7 @@ I work in enterprise alert triage, but I wanted deeper hands-on experience with:
 	•	Owning the full incident lifecycle: detect, investigate, contain, remediate, retest
 	•	Applying NIST CSF and MITRE ATT&CK in a hands-on, repeatable way
 
-This repo documents that process, built alongside CompTIA Security+ and TryHackMe's SAL1 path.
+This repo documents that process. 
 
 Environment
 
