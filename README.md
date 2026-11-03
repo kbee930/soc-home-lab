@@ -41,19 +41,10 @@ Frameworks
 	•	MITRE ATT&CK – naming attacker techniques
 	•	CIS Controls / Microsoft Security Baseline – hardening targets
 
-Round Summary
-
-Round	Focus	Status
-1	Password spray against a weak account	In progress
-2	Kerberoasting a service account	Planned
-3	SMB/LDAP enumeration, relay attacks	Planned
-4	Privilege abuse, persistence	Planned
-5	DCSync, full retest	Planned
 
 Each round's writeup lives in /rounds/round-XX/, including the incident report, timeline, evidence, remediation, and retest results.
 
-Repo Structure
-
+Repo Structur
 /rounds/round-01/     incident report, timeline, remediation, retest
 /ir-plan/             incident response plan (versioned as it matures)
 /detections/          Splunk searches and Sysmon rules I've written
