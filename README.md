@@ -66,4 +66,4 @@ Repo Structure
 
 About Me
 
-Cybersecurity analyst with experience in enterprise alert triage, phishing/malware investigation, and SOC operations. 
+Cybersecurity analyst with experience in enterprise alert triage, phishing/malware investigation, and GIS operations. 
