@@ -29,6 +29,7 @@ This repo documents that process.
 Environment
 
 Component	Role
+
 Windows Server 2022	Domain Controller (shieldpoint.local)
 Kali Linux	Red team attack box
 Splunk Enterprise	SIEM, log collection and search
