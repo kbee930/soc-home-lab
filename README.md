@@ -50,7 +50,8 @@ Frameworks
 
 Each Incident will have a writeup from both sides, that lives in /rounds/round-XX/, including the incident report, timeline, evidence, remediation, and retest results.
 
-Repo Structur
+Repo Structure
+
 /rounds/round-01/     incident report, timeline, remediation, retest
 /ir-plan/             incident response plan (versioned as it matures)
 /detections/          Splunk searches and Sysmon rules I've written
