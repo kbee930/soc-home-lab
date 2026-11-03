@@ -7,7 +7,7 @@ Self-built Active Directory lab for practicing SOC investigation, incident respo
 
 ----Remember---- 
 
-This is for FUN and to learn some stuff as we go.
+This is for FUN, applying skills, improving, and learning new skills as we go.
 
 The Story
 
