@@ -5,6 +5,8 @@ SOC Home Lab
 
 Self-built Active Directory lab for practicing SOC investigation, incident response, and detection engineering, documented round by round.
 
+----Remember---- This is for FUN and to learn some stuff as we go.
+
 The Story
 
 This lab simulates Shieldpoint Recovery, a fictional small debt collection agency that handles nonpublic personal information (NPI) but has no dedicated security staff. I'm the IT employee informally responsible for security, learning to detect, investigate, and respond to incidents as they happen, building the program from scratch.
@@ -42,7 +44,7 @@ Frameworks
 	•	CIS Controls / Microsoft Security Baseline – hardening targets
 
 
-Each round's writeup lives in /rounds/round-XX/, including the incident report, timeline, evidence, remediation, and retest results.
+Each Incident will have a writeup that lives in /rounds/round-XX/, including the incident report, timeline, evidence, remediation, and retest results.
 
 Repo Structur
 /rounds/round-01/     incident report, timeline, remediation, retest
