@@ -31,9 +31,12 @@ Environment
 Component	Role
 
 Windows Server 2022	Domain Controller (shieldpoint.local)
+
 Kali Linux	Red team attack box
-Splunk Enterprise	SIEM, log collection and search
-Sysmon	Endpoint telemetry on the DC
+
+Splunk Enterprise SIEM, log collection and search
+
+Sysmon Endpoint telemetry on the DC
 
 All systems run in VirtualBox on an isolated internal network. Red team connects remotely over a VPN, limited to the attacker VM only.
 
