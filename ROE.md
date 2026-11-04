@@ -6,15 +6,16 @@
 - Objective: Demonstrate impact (e.g., access to debtor PII, domain compromise)
 - Data: All synthetic
 - Red team: redteam2 (Shawn), from attack box 100.75.224.17
-- In scope: <lab subnet, TBD from Kyle>
+- In scope: <lab subnet 10.10.10.0/24>
 - Out of scope: Kyle's home LAN, personal devices, router, internet, Tailscale admin
 - Window: <start> – <end>
 - Stop word: RED DRAGON
 
 **Version:** 1.0
-**Effective date:** [11/2/2026]
-**Red team:** [Shawn/ NToaster]
-**Blue team:** [Kyle/ Dolamight]
+**Effective date:** [11/2/2026 - 11/6/2026]
+**Red team:** [Shawn]
+**Red team:** [Kalid]
+**Blue team:** [Kyle]
 
 This is a consensual, educational security lab between two participants.
 Both parties agree to the rules below before any engagement begins.
@@ -24,7 +25,7 @@ Both parties agree to the rules below before any engagement begins.
 **In scope (authorized targets):**
 - Windows Server 2022 Domain Controller — shieldpoint.local — [LAB IP]
 - [Any other lab VMs, listed by hostname + IP]
-- The isolated internal lab network only: [e.g. 10.0.0.0/24]
+- The isolated internal lab network only: [10.0.0.0/24]
 
 **Out of scope (never touch):**
 - The host PC running VirtualBox (either participant's)
@@ -59,9 +60,9 @@ looks like it might not be synthetic, or anyone's just not comfortable.
 
 ## 4. Timing
 
-- Attacks may occur: [any time / only during WINDOW, e.g. "Fri–Sun"]
+- Attacks may occur: [any time 11/2/2026 - 11/06/2026]
 - Red team notifies blue team that a round has *started* only if agreed:
-  [yes / no — surprise rounds]
+  [no — surprise rounds]
 - Each round ends when: blue team detects + remediates + retests, OR
   either party calls it.
 
