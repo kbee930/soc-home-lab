@@ -1,5 +1,16 @@
 # Rules of Engagement — Shieldpoint Recovery Lab
 
+## Engagement Brief
+- Client: Shieldpoint Recovery (fictional debt collection agency)
+- Type: External/internal network pentest, assumed weak security posture
+- Objective: Demonstrate impact (e.g., access to debtor PII, domain compromise)
+- Data: All synthetic
+- Red team: redteam2 (Shawn), from attack box 100.75.224.17
+- In scope: <lab subnet, TBD from Kyle>
+- Out of scope: Kyle's home LAN, personal devices, router, internet, Tailscale admin
+- Window: <start> – <end>
+- Stop word: RED DRAGON
+
 **Version:** 1.0
 **Effective date:** [11/2/2026]
 **Red team:** [Shawn/ NToaster]
