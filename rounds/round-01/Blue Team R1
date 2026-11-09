@@ -1,0 +1,34 @@
+Round 1 Incident Report
+
+Executive Summary
+
+Assessor cracked a weak password (bcarter) with a spray attack, got into a file share, and pulled a test file with fake NPI in it. No escalation, no lateral movement. Fixed: lockout policy, password requirements, file auditing, and a Splunk alert for spray patterns.
+
+What happened
+
+An external assessor sprayed passwords against three accounts (bcarter, lreyes, smoore) over SMB. bcarter had a weak password and fell after about 14,000 attempts; the other two held. The assessor reports copying a file off the Customer Information share, I can confirm the login, but not the file access itself, since Object Access auditing wasn't on yet for that share.
+
+Source IP: 10.10.10.200
+Account compromised: bcarter
+Attack window: 12:39 PM – 1:16 PM
+Scope
+
+No group changes, no new accounts, no privilege changes. Stayed contained to bcarter's existing access.
+
+Red team vs. my logs
+
+Their log shows ~35 minutes of recon before the spray (nmap, enumeration, a failed AS-REP roast) that never shows up in Splunk, the Sysmon config filters most network events by default. Their reported times also run 10-15 minutes behind what Splunk logged, likely clock drift or a reused session. Their own notes on what should've alerted matched what I found independently, good sign.
+
+Fixing
+Account lockout back on
+Stronger password policy
+File access auditing on sensitive shares
+Splunk alert for failed-logon bursts
+Tune Sysmon to actually catch network connections
+
+MITRE mapping
+
+T1110.003 (Password Spraying)
+Mitigations: M1036, M1027
+Detection: DET0487 
+  AN1336, high volume of auth failures across multiple accounts in a short window.
