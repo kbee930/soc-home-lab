@@ -1,8 +1,8 @@
 # Round 01 — Shieldpoint Recovery Engagement Log
 
 **Date:** 2026-11-04
-**Red team:** Shawn (NToaster) — redteam2, attack box 10.10.10.200
-**Blue team:** Kyle (Dolamight) — Splunk alerting OFF this round (baseline run)
+**Red team:** Shawn — redteam2, attack box 10.10.10.200
+**Blue team:** Kyle — Splunk alerting OFF this round (baseline run)
 **Target:** DC01 (10.10.10.10), shieldpoint.local, Windows Server 2022
 **Objective:** Exfiltrate debtor PII
 **Result:** FLAG CAPTURED — FLAG{shieldpoint_round1_npi_exposed}
